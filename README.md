@@ -2,6 +2,8 @@
 
 An AI-powered recruitment screening assistant that helps HR teams review job applications, evaluate CVs against job requirements, and identify candidates who best match a position. The system automates repetitive screening tasks while keeping final hiring decisions under human control.
 
+![HireAI Dashboard](HireAI.jpeg)
+
 ## Overview
 
 Reviewing large numbers of CVs manually can be time-consuming and inconsistent. HireAI streamlines the initial screening process by connecting to Gmail, collecting CV attachments, extracting candidate information, and evaluating applications against a job description.
