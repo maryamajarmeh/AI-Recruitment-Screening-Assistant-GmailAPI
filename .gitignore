@@ -1,0 +1,10 @@
+credentials.json
+token.json
+screening_results.json
+processed_emails.json
+__pycache__/
+*.py[cod]
+venv/
+.vscode/
+temp_cvs/
+.env
