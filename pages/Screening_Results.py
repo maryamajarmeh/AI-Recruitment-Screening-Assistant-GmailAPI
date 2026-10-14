@@ -65,9 +65,9 @@ with st.sidebar:
     st.divider()
     st.markdown("### Navigation")
     st.page_link("app.py", label="⌂  Dashboard")
-    st.page_link("pages/1_Job_Setup.py", label="▤  Jobs")
-    st.page_link("pages/2_Important_Skills.py", label="♧  Skills & Requirements")
-    st.page_link("pages/3_Screening_Results.py", label="♙  Candidates")
+    st.page_link("pages/Job_Setup.py", label="▤  Jobs")
+    st.page_link("pages/Important_Skills.py", label="♧  Skills & Requirements")
+    st.page_link("pages/Screening_Results.py", label="♙  Candidates")
     st.markdown("---")
     st.caption("AI Recruitment Screening Assistant")
 
@@ -105,7 +105,7 @@ st.caption(
 if not candidates:
     st.info("No candidate results are available yet.")
     st.page_link(
-        "pages/1_Job_Setup.py",
+        "pages/Job_Setup.py",
         label="Set up a job"
     )
     st.stop()
